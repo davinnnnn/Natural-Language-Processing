@@ -34,7 +34,10 @@ RNN은 다양한 구조를 가질 수 있으며, 단일 입력에서 여러 출�
 트랜스포머는 자기 주의 메커니즘을 사용하여 전체 입력 시퀀스를 한 번에 처리하는 반면, BERT와 GPT는 각각 양방향 및 단방향 맥락을 이해하는 데 강점을 가지고 있다. 이러한 모델들은 전이 학습을 통해 다양한 NLP 작업에 적용될 수 있으며, 기존의 순환 신경망보다 더 효율적인 성능을 보여준다.
 트랜스포머, BERT 및 GPT에 대한 자세한 내용은 해당 모델들을 소개하는 문헌 및 온라인 자료를 통해 더 깊이 있게 탐구할 수 있다.
 
-## Natural-Language-Processing 논문
-
+## Natural-Language-Processing 관련 논문
+- "Attention Is All You Need" by Vaswani et al. (2017): 이 논문에서는 트랜스포머(Transformer) 아키텍처가 처음 소개되었던 논문이다. 트랜스포머는 전통적인 RNN 및 LSTM에 의존하지 않고,
+'자기 주의(Self-Attention)' 메커니즘을 활용하여 시퀀스 데이터를 처리한다. 이 새로운 접근 방식은 NLP 분야에서 중요한 발전을 이루었으며, 효율적인 병렬 처리와 빠른 학습 속도로 인해 다양한 언어 처리 작업에서 널리 채택되었다.
+  
+- "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" by Devlin et al. (2018): BERT(Bidirectional Encoder Representations from Transformers)는 텍스트의 양방향 맥락을 이해하는 데 초점을 맞춘 모델이다. BERT는 사전 훈련된 딥러닝 모델을 활용하여 다양한 NLP 작업에 적용될 수 있으며, 언어 이해에 있어서 기존 모델들보다 향상된 성능을 보여주었습니다. 이 논문은 NLP 분야에서 BERT가 어떻게 다양한 언어 처리 작업의 성능을 개선하는지에 대한 내용을 담고 있다.
 
 
